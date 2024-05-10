@@ -5,4 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Reverse string
-      run: echo "Hello!" |rev
+      run: |
+        echo "today is a beautiful day " |rev
+        echo "yad lufituaeb a si yadot" |rev
