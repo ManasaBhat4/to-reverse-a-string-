@@ -1,0 +1,8 @@
+name: display
+'on': push
+jobs:
+  reverse:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Reverse string
+      run: echo "Hello!" |rev
